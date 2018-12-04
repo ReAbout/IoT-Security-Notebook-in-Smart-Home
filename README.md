@@ -3,7 +3,7 @@
 #### [Security Analysis of Emerging Smart Home Applications](https://github.com/ReAbout/IoT-Home/blob/master/Security%20Analysis%20of%20Emerging%20Smart%20Home%20Applications.md)  
 2016 IEEE Symposium on Security and Privacy   
 首次深入分析smart home平台漏洞   
-#### [ContexIoT: Towards Providing Contextual Integrity to Appified IoT Platforms](https://github.com/ReAbout/IoT-Home/blob/master/smart%20home/ContexIoT.md)      
+#### [ContexIoT: Towards Providing Contextual Integrity to Appified IoT Platforms](https://github.com/ReAbout/IoT-Home/blob/master/ContexIoT.md)      
 2017 NDSS    
 提出利用上下文内容检测恶意攻击进行访问控制    
 #### [Tyche:A Risk-Based Permission Model for Smart Homes](https://github.com/ReAbout/IoT-Home/blob/master/smart%20home/Tyche.md)
