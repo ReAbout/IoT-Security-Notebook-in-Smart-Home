@@ -37,7 +37,7 @@
 &emsp;&emsp;该paper是密歇根大学继《Security Analysis of Emerging Smart Home Applications》IoT——Smart Home研究方向的第2篇。依照之前对SmartThings框架发现的漏洞，提出ContenIoT框架，针对其APP进行修补，构建权限服务云，提供上下文权限（敏感操作）使用提示及控制。   
 ![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/contexiot_3.PNG?token=AI5pPaS1Pz2fy-4T164aTqmb5PSCiM3-ks5cD7gLwA%3D%3D)  
 &emsp;&emsp;后端权限服务为每个用户维护一个授权的许可上下文映射表。每次ContexIoT补丁应用程序尝试执行安全敏感操作时，都会向后台发送包含上下文信息的权限请求。基于云的权限服务检查上下文之前是否被允许或拒绝。如果没有，它将使用一个对话框提示用户显示权限请求和相关上下文，并向映射表添加一个额外条目，以便将用户的决策存储为安全首选项。
-### 修改后敏感操作的step:  
+### 框架嵌入后，敏感操作的step:  
 (1)Collect the context information before the action is executed.  
 (2)Allow or Deny   
 该paper的IoT Security分为：Devices, Protocols and Platforms(权限粗粒度,流控制)  
