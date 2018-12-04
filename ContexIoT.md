@@ -35,7 +35,7 @@
 >paper思路：攻击分类->框架设计如何通过上下文检测攻击行为->如何应对常规的逃逸行为能力对比->框架实现
 
 &emsp;&emsp;该paper是密歇根大学继《Security Analysis of Emerging Smart Home Applications》IoT——Smart Home研究方向的第2篇。依照之前对SmartThings框架发现的漏洞，提出ContenIoT框架，针对其APP进行修补，构建权限服务云，提供上下文权限（敏感操作）使用提示及控制。   
-![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/contexiot_3.PNG?token=AI5pPWLjEIdb8Nd8FoSBDea7jFcn8UI1ks5cDyZTwA%3D%3D)  
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/contexiot_3.PNG?token=AI5pPaS1Pz2fy-4T164aTqmb5PSCiM3-ks5cD7gLwA%3D%3D)  
 &emsp;&emsp;后端权限服务为每个用户维护一个授权的许可上下文映射表。每次ContexIoT补丁应用程序尝试执行安全敏感操作时，都会向后台发送包含上下文信息的权限请求。基于云的权限服务检查上下文之前是否被允许或拒绝。如果没有，它将使用一个对话框提示用户显示权限请求和相关上下文，并向映射表添加一个额外条目，以便将用户的决策存储为安全首选项。
 ### 修改后敏感操作的step:  
 (1)Collect the context information before the action is executed.  
@@ -44,8 +44,8 @@
 ### IoT攻击分类：
 认证漏洞、恶意的应用或固件、错误的使用场景   
 https://sites.google.com/site/iotcontextualintegrity/attack   
-![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/contexiot_1.PNG?token=AI5pPcbQRUOire68O_8H_pK68v5aHwWbks5cDyWfwA%3D%3D)  
-![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/contexiot_2.PNG?token=AI5pPQKRruYkZPJUfCzb3LaZ4D_97HDSks5cDyYMwA%3D%3D)  
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/contexiot_1.PNG?token=AI5pPeB1iuNEO52-XmtVZXVBk1hxgKLTks5cD7fkwA%3D%3D)  
+![](https://github.com/ReAbout/IoT-Home/blob/master/images/contexiot_2.PNG)  
 ### 应对逃避检测能力
 （1）Asynchronous leakage   
 （2）Control flow abuse  
