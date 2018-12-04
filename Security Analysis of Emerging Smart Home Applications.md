@@ -37,22 +37,22 @@
 ![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/iot_1.PNG?token=AI5pPTwb0LRqzH8BjZ-67asZeMgJFP_Zks5cDnHlwA%3D%3D)
 
 ### 从5个层面去分析IoT框架安全
-Least-privilege principle adherence（权限）
-Sensitive event data protection（敏感数据）
-External, third-party integration safety（第三方集成）
-External input sanitization（输入）
-Access control of external communication APIs:（api的访问控制）
+Least-privilege principle adherence（权限）  
+Sensitive event data protection（敏感数据）  
+External, third-party integration safety（第三方集成）  
+External input sanitization（输入）  
+Access control of external communication APIs:（api的访问控制）  
 ### 针对SmartThings四种攻击 
 以智能门锁为例，攻击有两个步骤:
 (1)为受害者的SmartThings部署获取OAuth令牌。
 (2)确定WebService SmartApp是否使用不安全的Groovy动态方法调用，如果使用，则在OAuth上注入适当格式化的命令字符串。
 ![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/iot_2.PNG?token=AI5pPfXwWBH_5gqS8TVM17o92ptq_INgks5cDnIVwA%3D%3D)
 攻击步骤：  
-（1）hacker利用电池监控器SmartApp注册所有类型的codeReport事件。
-（2）受害者设置新的pin-code
-（3）处理程序依次向集线器发出一系列set和get ZWave命令
-（4）通过ZWave网关与门锁通信，并创建日志。
-（5）获取铭文的pin-code日志信息。
+（1）hacker利用电池监控器SmartApp注册所有类型的codeReport事件。   
+（2）受害者设置新的pin-code  
+（3）处理程序依次向集线器发出一系列set和get ZWave命令  
+（4）通过ZWave网关与门锁通信，并创建日志。  
+（5）获取铭文的pin-code日志信息。    
 ![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/iot_3.PNG?token=AI5pPfXwWBH_5gqS8TVM17o92ptq_INgks5cDnIVwA%3D%3D)
 ## [Tips]  
 1.一旦获取128bitkey，就可以调用IoT设备所有事件  
