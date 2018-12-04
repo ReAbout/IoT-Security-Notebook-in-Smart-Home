@@ -6,8 +6,8 @@
 #### [ContexIoT: Towards Providing Contextual Integrity to Appified IoT Platforms](https://github.com/ReAbout/IoT-Home/blob/master/ContexIoT.md)      
 2017 NDSS    
 提出利用上下文内容检测恶意攻击进行访问控制    
-#### [Tyche:A Risk-Based Permission Model for Smart Homes](https://github.com/ReAbout/IoT-Home/blob/master/smart%20home/Tyche.md)
+#### [Tyche:A Risk-Based Permission Model for Smart Homes](https://github.com/ReAbout/IoT-Home/blob/master/Tyche.md)
 2018 SecDev   
 提出个基于威胁等级的权限模块，例如高威胁功能需要允许才可执行。   
-#### [SoK: Security Evaluation of Home-Based IoT Deployments](https://github.com/ReAbout/IoT-Home/blob/master/smart%20home/SoK%20Security%20Evaluation%20of%20Home-Based%20IoT.md)    
+#### [SoK: Security Evaluation of Home-Based IoT Deployments](https://github.com/ReAbout/IoT-Home/blob/master/SoK%20Security%20Evaluation%20of%20Home-Based%20IoT.md)    
 综述从4个方面（设备、平台、App、通信）分析smart home 漏洞，并调查现有产品的漏洞情况。
