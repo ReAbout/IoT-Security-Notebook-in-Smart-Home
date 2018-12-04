@@ -34,7 +34,7 @@
 ### SmartThings生态系统结构
 由三个主要组件组成:
 (1)hub (2)SmartThings cloud (3)手机应用
-![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/iot_1.PNG?token=AI5pPTwb0LRqzH8BjZ-67asZeMgJFP_Zks5cDnHlwA%3D%3D)
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/iot_1.PNG?token=AI5pPfa10Z4CcWbmJooc9uJ3hVDaFEZkks5cD7dywA%3D%3D)
 
 ### 从5个层面去分析IoT框架安全
 Least-privilege principle adherence（权限）  
@@ -46,14 +46,14 @@ Access control of external communication APIs:（api的访问控制）
 以智能门锁为例，攻击有两个步骤:
 (1)为受害者的SmartThings部署获取OAuth令牌。
 (2)确定WebService SmartApp是否使用不安全的Groovy动态方法调用，如果使用，则在OAuth上注入适当格式化的命令字符串。
-![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/iot_2.PNG?token=AI5pPfXwWBH_5gqS8TVM17o92ptq_INgks5cDnIVwA%3D%3D)
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/iot_2.PNG?token=AI5pPeehgTfQVDI934GWmLrH_oCS3zkFks5cD7eSwA%3D%3D)
 攻击步骤：  
 （1）hacker利用电池监控器SmartApp注册所有类型的codeReport事件。   
 （2）受害者设置新的pin-code  
 （3）处理程序依次向集线器发出一系列set和get ZWave命令  
 （4）通过ZWave网关与门锁通信，并创建日志。  
 （5）获取铭文的pin-code日志信息。    
-![](https://raw.githubusercontent.com/iromise/NISL-IoT/master/smart%20home/images/iot_3.PNG?token=AI5pPfXwWBH_5gqS8TVM17o92ptq_INgks5cDnIVwA%3D%3D)
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/iot_3.PNG?token=AI5pPeehgTfQVDI934GWmLrH_oCS3zkFks5cD7eSwA%3D%3D)
 ## [Tips]  
 1.一旦获取128bitkey，就可以调用IoT设备所有事件  
 2.无法二进制分析，大部分逻辑都是在云端执行    
