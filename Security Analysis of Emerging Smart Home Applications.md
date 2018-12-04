@@ -53,7 +53,7 @@ Access control of external communication APIs:（api的访问控制）
 （3）处理程序依次向集线器发出一系列set和get ZWave命令  
 （4）通过ZWave网关与门锁通信，并创建日志。  
 （5）获取铭文的pin-code日志信息。    
-![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/iot_3.PNG?token=AI5pPeehgTfQVDI934GWmLrH_oCS3zkFks5cD7eSwA%3D%3D)
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/iot_3.PNG?token=AI5pPU-ThNjnQKfyfchjXHD4Kpfbhdoaks5cD7e7wA%3D%3D)
 ## [Tips]  
 1.一旦获取128bitkey，就可以调用IoT设备所有事件  
 2.无法二进制分析，大部分逻辑都是在云端执行    
