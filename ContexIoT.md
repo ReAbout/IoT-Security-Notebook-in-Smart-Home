@@ -32,7 +32,7 @@
 >VII. EVALUATION   
 >&emsp;&emsp;|-A. Effectiveness of Secure Logic Patching   
 ## [思考]
->paper思路：攻击分类->框架设计如何通过上下文检测攻击行为->如何应对常规的逃逸行为能力对比->框架实现
+>paper思路：攻击分类->框架设计如何通过上下文检测攻击行为->该框架如何应对常规的逃逸行为，并与其它框架进行对比->框架实现
 
 &emsp;&emsp;该paper是密歇根大学继《Security Analysis of Emerging Smart Home Applications》IoT——Smart Home研究方向的第2篇。依照之前对SmartThings框架发现的漏洞，提出ContenIoT框架，针对其APP进行修补，构建权限服务云，提供上下文权限（敏感操作）使用提示及控制。   
 ![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/contexiot_3.PNG?token=AI5pPaS1Pz2fy-4T164aTqmb5PSCiM3-ks5cD7gLwA%3D%3D)  
