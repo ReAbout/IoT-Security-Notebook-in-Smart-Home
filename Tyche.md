@@ -15,4 +15,20 @@
 >&emsp;&emsp;A. Developing a Risk-Based Permission Model   
 >&emsp;&emsp;B. Enforcing a Risk-Based Permissions Model   
 >IV. USABILITY ANALYSIS  
->&emsp;&emsp;A.User Study Setup   
+>&emsp;&emsp;A.User Study Setup  
+>&emsp;&emsp;B. Enforcing a Risk-Based Permissions Model     
+>IV. USABILITY ANALYSIS   
+>&emsp;&emsp;A. User Study Setup  
+>V. DISCUSSION AND LIMITATIONS    
+>&emsp;&emsp;A. Tyche vs. “Permission on first use”   
+>&emsp;&emsp;B. Perception of Risk      
+>&emsp;&emsp;C. Overprivilege in Tyche   
+>&emsp;&emsp;D. Surfacing Risk Levels to Users   
+>&emsp;&emsp;VI. RELATED WORK  
+>&emsp;&emsp;VII. CONCLUSION      
+
+矛盾点：过度权限的控制    
+分High、Medium、Low Risk   
+对人员调查评测    
+风险感知针对不同年龄段的人群   
+
