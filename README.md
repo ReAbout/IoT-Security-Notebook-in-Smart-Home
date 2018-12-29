@@ -1,4 +1,4 @@
-# Samrt Home Security
+# IoT for Home Security
 
 ## 项目研究
 ####  [小米IoT通信安全研究](https://github.com/ReAbout/IoT-Home/blob/master/communication-mi.md)
@@ -13,10 +13,11 @@
 2018 SecDev   
 提出个基于威胁等级的权限模块，例如高威胁功能需要允许才可执行。   
 #### [Rethinking Access Control and Authentication for the Home Internet of Things (IoT)](https://github.com/ReAbout/IoT-Home/blob/master/rethinking.md)
-
+2018 27th USENIX Security Symposium
 #### [SoK: Security Evaluation of Home-Based IoT Deployments](https://github.com/ReAbout/IoT-Home/blob/master/SoK%20Security%20Evaluation%20of%20Home-Based%20IoT.md)    
 综述从4个方面（设备、平台、App、通信）分析smart home 漏洞，并调查现有产品的漏洞情况。
 
 ## 参考
 #### [知道创宇IoT专栏](https://paper.seebug.org/category/IoT/)   
+#### [密西根大学IoT研究成果](https://iotsecurity.engin.umich.edu/)
 
