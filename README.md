@@ -2,7 +2,6 @@
 
 ## 项目研究
 ####  [小米IoT通信安全研究](https://github.com/ReAbout/IoT-Home/blob/master/communication-mi.md)
-
 ## 论文阅读
 #### [Security Analysis of Emerging Smart Home Applications](https://github.com/ReAbout/IoT-Home/blob/master/Security%20Analysis%20of%20Emerging%20Smart%20Home%20Applications.md)  
 2016 IEEE Symposium on Security and Privacy   
@@ -17,3 +16,7 @@
 
 #### [SoK: Security Evaluation of Home-Based IoT Deployments](https://github.com/ReAbout/IoT-Home/blob/master/SoK%20Security%20Evaluation%20of%20Home-Based%20IoT.md)    
 综述从4个方面（设备、平台、App、通信）分析smart home 漏洞，并调查现有产品的漏洞情况。
+
+## 参考
+#### [知道创宇IoT专栏](https://paper.seebug.org/category/IoT/)   
+
