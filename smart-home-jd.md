@@ -30,10 +30,11 @@ tcpdump -i br0 -s 0 -w test.pcap
 ### 0x05 Traffic Analysis
 JoyLink通信协议、JoyLink-Bluetooth协议、设备入网（softap、一键配置）、云端API、Joylink2.0 指令转换及lua 脚本
 分析方法：通过文档、SDK+抓包
-#### 指令转换及lua 脚本
+#### (1)指令转换及lua 脚本
 京东标准指令：在京东Joylink 协议里所有的事物（包括设备device, 设备快照snapshot, 操作属性stream_id, 操作指令cmd 等）均使用json 语言描述。
 实现指令转化是靠Lua脚本实现的。
-#### JoyLink-Bluetooth
+#### (2)JoyLink通信协议
+#### (3)JoyLink-Bluetooth
 > [APP]<—BLE—>[Device] 
 
 JoyLink Profile
@@ -43,9 +44,11 @@ JoyLink Profile
 &emsp;&emsp;业务层面：业务层面是为App服务。
 功能：设备发现、配置上网、设备->控制端通信、控制端->设备通信
 通信安全级别
-#### 设备入网 一键配置
+#### (4)设备入网 softap
+#### (5)设备入网 一键配置
 一键配置通过802.11数据包的特定区域传输完成。而数据包的特定区域传输完成。
 组播和广播两种方式。
+#### (6)云端API
 #### Tips
 1. 局域网中控制
 2. 认证
