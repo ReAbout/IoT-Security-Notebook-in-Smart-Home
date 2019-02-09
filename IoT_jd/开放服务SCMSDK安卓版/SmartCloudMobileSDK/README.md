@@ -1,0 +1,3 @@
+AndroidSmartCloudMobileSDK
+====
+SmartCloudMobileSDK

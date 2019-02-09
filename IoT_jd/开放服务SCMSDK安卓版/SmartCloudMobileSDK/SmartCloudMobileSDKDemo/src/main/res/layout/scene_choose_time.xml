@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55.125dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22.5dp"
+            android:layout_marginTop="22.5dp"
+            android:text="自定义时长"
+            android:textColor="#2f3239"
+            android:textSize="16.875dp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="小时"
+            android:textColor="#2f3239"
+            android:textSize="16.875dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:text="分钟"
+            android:textColor="#2f3239"
+            android:textSize="16.875dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <!--android:layout_marginBottom="15.0dp"-->
+
+        <com.jd.smartcloudmobilesdk.demo.scene.widget.WheelView
+            android:id="@+id/sc_choose_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.jd.smartcloudmobilesdk.demo.scene.widget.WheelView
+            android:id="@+id/sc_choose_minute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0.56dp"-->
+    <!--android:background="#bdc8d5" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60.1875dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/sc_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40.5dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10.125dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/register_btn_corner1"
+            android:text="取消"
+            android:textColor="#ffffff"
+            android:textSize="16.875sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/sc_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="40.5dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10.125dp"
+            android:layout_marginRight="10.125dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/register_btn_corner"
+            android:text="确认"
+            android:textColor="#ffffff"
+            android:textSize="16.875sp"
+            android:typeface="sans" />
+    </LinearLayout>
+</LinearLayout>

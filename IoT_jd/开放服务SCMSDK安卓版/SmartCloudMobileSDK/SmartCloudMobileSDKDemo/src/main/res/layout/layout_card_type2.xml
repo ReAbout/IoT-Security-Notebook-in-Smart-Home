@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_card_type2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="16dp"
+        android:background="#E9E9E9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_desc11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预热中"
+                android:textColor="#FF5C5C"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_desc12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前状态"
+                android:textColor="#9B9B9B"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_desc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_desc21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="230°"
+                android:textColor="#FF5C5C"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_desc22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前温度"
+                android:textColor="#9B9B9B"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_desc31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01:50:30"
+                android:textColor="#FF5C5C"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_desc32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当前时间"
+                android:textColor="#9B9B9B"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

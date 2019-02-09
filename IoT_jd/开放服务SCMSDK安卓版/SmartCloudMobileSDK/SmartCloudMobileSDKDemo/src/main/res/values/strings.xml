@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">SCMSDK</string>
+    <string name="duration">300</string>
+    <string name="upload_music">音乐</string>
+    <string name="edit_name_hint">给它取个你喜欢的名字吧</string>
+    <string name="setting">设置</string>
+    <string name="save">保存</string>
+    <string name="edit_name">修改名称</string>
+    <string name="cancel">取消</string>
+    <string name="device_list">设备列表</string>
+    <string name="device_name">设备名称</string>
+
+</resources>

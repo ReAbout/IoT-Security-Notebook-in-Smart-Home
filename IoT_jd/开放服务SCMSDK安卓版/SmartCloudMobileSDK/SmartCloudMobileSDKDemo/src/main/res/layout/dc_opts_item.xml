@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:id="@+id/dc_opts_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dp"
+            android:layout_marginTop="3dp"
+            android:text="asdfsadfsa"
+            android:textColor="#2f3239"
+            android:textSize="16.875dp" />
+
+        <!-- style="@style/JDCheckBox1" -->
+
+        <CheckBox
+            android:id="@+id/customer"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="36.0dp"
+            android:background="@drawable/file_store_checkbox_selector1"
+            android:button="@null" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_opts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="36.0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="27.0dp"
+            android:background="@drawable/bg_corner1"
+            android:gravity="center_vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/tv_big"
+                android:layout_width="65dp"
+                android:layout_height="33.75dp"
+                android:background="@drawable/text_corner"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="大于"
+                android:textColor="@color/white"
+                android:textSize="13.5dp" />
+
+            <TextView
+                android:id="@+id/tv_equal"
+                android:layout_width="65dp"
+                android:layout_height="33.75dp"
+                android:background="@drawable/text_corner1_h"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="等于"
+                android:textColor="#8b8e98"
+                android:textSize="13.5dp" />
+
+            <TextView
+                android:id="@+id/tv_small"
+                android:layout_width="65dp"
+                android:layout_height="33.75dp"
+                android:background="@drawable/text_corner2_h"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="小于"
+                android:textColor="#8b8e98"
+                android:textSize="13.5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34.3125dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/show_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#2f3239"
+                android:textSize="56.25dp" />
+
+            <TextView
+                android:id="@+id/show_symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textColor="#bdc8d5"
+                android:textSize="16.875dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.56dp"
+            android:layout_marginTop="22.5dp"
+            android:background="#d8dadd" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25.875dp">
+
+            <TextView
+                android:id="@+id/dc_opts_sub"
+                android:layout_width="18.0dp"
+                android:layout_height="18.0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:background="@mipmap/btn_reduce_h"
+                android:clickable="false" />
+
+            <SeekBar
+                android:id="@+id/choose_value"
+                style="@style/seekbar_style4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="11.25dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="8dp"
+                android:clickable="false" />
+
+            <TextView
+                android:id="@+id/dc_opts_add"
+                android:layout_width="18.0dp"
+                android:layout_height="18.0dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="18dp"
+                android:background="@mipmap/btn_add_h"
+                android:clickable="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15.75dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/first_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="#bdc8d5"
+                android:textSize="13.5dp" />
+
+            <TextView
+                android:id="@+id/last_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="100"
+                android:textColor="#bdc8d5"
+                android:textSize="13.5dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jd.smartcloudmobilesdk.demo.utils.RoundedImageView
+        android:id="@+id/tv_test"
+        android:layout_width="80.4375dp"
+        android:layout_height="80.4375dp"
+        android:scaleType="centerCrop"
+        app:border_color="#cccccc"
+        app:border_width="0dp"
+        app:is_oval="true" />
+
+</LinearLayout>

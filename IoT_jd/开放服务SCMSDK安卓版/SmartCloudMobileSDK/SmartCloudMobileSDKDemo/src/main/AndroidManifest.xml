@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jd.smartcloudmobilesdk.demo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".JDApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar"
+        tools:ignore="GoogleAppIndexingWarning"
+        tools:replace="android:icon, android:name, android:label,android:theme, android:allowBackup">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".authorize.AuthorizeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authorize.AuthorizeFragmentActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".config.ConfigNetActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".config.ScanConfigActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".config.OneStepCloudActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".config.OneStepNativeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".config.SoftApActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".config.BleWiFiActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.GatewayListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.QRCodeConfigActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.ProductManualActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.PhysicalConfigActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.ConfigTimeoutActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.ConfigHelpActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gateway.RepeatBindActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".control.HtmlDetailActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".control.ModelDetailHtml5Activity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".control.SettingActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".control.EditNameActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".control.JsNativeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".control.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene.SceneListUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene.CreateSceneUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene.SceneAddTaskUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene.SceneDetailUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene.SceneRecordUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".scene.SceneRecordDetailUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ifttt.SceneListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ifttt.SceneLogsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ifttt.SceneLogDetailActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ifttt.CreateSceneActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ifttt.SceneEventsListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ifttt.SceneActionsListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openapi.OpenApiActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".business.card.CardListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".business.category.CategoryActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".business.category.ProductBrandActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".business.category.ProductListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- SDK中的授权登录页面，需要开发者注册 -->
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.authorize.AuthorizeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.jd.smartcloudmobilesdk.confignet.ble.core.BleService"
+            android:enabled="true" />
+
+        <service android:name="com.jd.smartcloudmobilesdk.devicecontrol.DeviceService" />
+
+        <receiver
+            android:name=".control.WifiReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

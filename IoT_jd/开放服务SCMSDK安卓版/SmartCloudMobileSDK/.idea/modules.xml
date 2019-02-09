@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SmartCloudMobileSDK.iml" filepath="$PROJECT_DIR$/SmartCloudMobileSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartCloudMobileSDKDemo/SmartCloudMobileSDKDemo.iml" filepath="$PROJECT_DIR$/SmartCloudMobileSDKDemo/SmartCloudMobileSDKDemo.iml" />
+    </modules>
+  </component>
+</project>

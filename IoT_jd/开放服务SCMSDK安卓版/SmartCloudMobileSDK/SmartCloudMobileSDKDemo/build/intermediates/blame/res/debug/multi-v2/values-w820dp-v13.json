@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Android\\workspace\\studio\\JDSmartSDK\\SmartCloudMobileSDK\\SmartCloudMobileSDKDemo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\workspace\\studio\\JDSmartSDK\\SmartCloudMobileSDK\\SmartCloudMobileSDKDemo\\src\\main\\res\\values-w820dp\\attr.xml",
+                    "from": {
+                        "startLines": "34,36,67,73,80,41,26,3",
+                        "startColumns": "2,2,4,4,4,4,1,1",
+                        "startOffsets": "1103,1163,2501,2744,3026,1369,960,56",
+                        "endLines": "34,39,71,77,85,65,28,24",
+                        "endColumns": "54,24,24,24,24,24,21,21",
+                        "endOffsets": "1155,1359,2732,3014,3316,2489,1067,955"
+                    },
+                    "to": {
+                        "startLines": "2,3,7,12,17,23,48,51",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,307,536,804,1094,2178,2288",
+                        "endLines": "2,6,11,16,22,47,50,72",
+                        "endColumns": "55,24,24,24,24,24,21,21",
+                        "endOffsets": "106,302,531,799,1089,2173,2283,3166"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\workspace\\studio\\JDSmartSDK\\SmartCloudMobileSDK\\SmartCloudMobileSDKDemo\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "55",
+                        "endOffsets": "346"
+                    },
+                    "to": {
+                        "startLines": "73",
+                        "startColumns": "4",
+                        "startOffsets": "3171",
+                        "endColumns": "55",
+                        "endOffsets": "3222"
+                    }
+                }
+            ]
+        }
+    ]
+}

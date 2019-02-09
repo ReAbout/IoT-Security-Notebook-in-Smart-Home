@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blank">#40000000</color>
+    <color name="gray">#808080</color>
+
+    <color name="bg_main">#EDF0F2</color>
+    <color name="bg_line">#D5D5D5</color>
+    <color name="divider_line">#D5D5D5</color>
+
+    <color name="text_main">#4A4A4A</color>
+    <color name="text_gray">#9B9B9B</color>
+    <color name="text_red">#FF5C5C</color>
+    <color name="selector_item">#edf3f4</color>
+
+    <drawable name="empty">#00FFFFFF</drawable>
+    <color name="title_color">#666666</color>
+    <color name="light_gray">#eef2f7</color>
+    <color name="bg_gray">#FFf6f6f6</color>
+    <color name="line">#FFe1e1e1</color> <!-- 灰色 -->
+    <color name="midnightgary">#999999</color> <!-- 暗夜灰 -->
+    <color name="text_timer">#40404a</color>
+    <color name="blue_459efe">#459efe</color>
+    <color name="normal_color">#8e8e93</color>
+
+</resources>

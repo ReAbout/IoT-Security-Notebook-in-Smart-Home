@@ -1,0 +1,635 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+	package
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:4:5-46
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:1-258:12
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:10:22-71
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:18:22-72
+application
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:20:5-256:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:24:9-41
+	tools:ignore
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:27:9-48
+	android:icon
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:23:9-43
+	android:allowBackup
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:22:9-36
+	android:theme
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:26:9-62
+	tools:replace
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:28:9-101
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:21:9-38
+activity#com.jd.smartcloudmobilesdk.demo.MainActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:29:9-35:20
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:29:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:33:27-74
+activity#com.jd.smartcloudmobilesdk.demo.authorize.AuthorizeActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:36:9-40:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:40:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:39:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:38:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:37:13-56
+activity#com.jd.smartcloudmobilesdk.demo.authorize.AuthorizeFragmentActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:41:9-45:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:45:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:44:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:43:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:42:13-64
+activity#com.jd.smartcloudmobilesdk.demo.config.ConfigNetActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:46:9-50:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:50:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:49:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:48:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:47:13-53
+activity#com.jd.smartcloudmobilesdk.demo.config.ScanConfigActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:51:9-55:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:55:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:54:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:53:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:52:13-54
+activity#com.jd.smartcloudmobilesdk.demo.config.OneStepCloudActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:56:9-60:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:60:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:59:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:58:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:57:13-56
+activity#com.jd.smartcloudmobilesdk.demo.config.OneStepNativeActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:61:9-65:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:65:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:64:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:63:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:62:13-57
+activity#com.jd.smartcloudmobilesdk.demo.config.SoftApActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:66:9-70:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:70:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:69:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:68:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:67:13-50
+activity#com.jd.smartcloudmobilesdk.demo.config.BleWiFiActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:71:9-75:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:75:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:74:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:73:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:72:13-51
+activity#com.jd.smartcloudmobilesdk.demo.gateway.GatewayListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:76:9-80:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:80:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:79:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:78:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:77:13-56
+activity#com.jd.smartcloudmobilesdk.demo.gateway.CaptureActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:81:9-85:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:85:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:84:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:83:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:82:13-52
+activity#com.jd.smartcloudmobilesdk.demo.gateway.QRCodeConfigActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:86:9-90:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:90:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:89:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:88:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:87:13-57
+activity#com.jd.smartcloudmobilesdk.demo.gateway.ProductManualActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:91:9-95:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:95:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:94:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:93:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:92:13-58
+activity#com.jd.smartcloudmobilesdk.demo.gateway.PhysicalConfigActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:96:9-100:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:100:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:99:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:98:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:97:13-59
+activity#com.jd.smartcloudmobilesdk.demo.gateway.ConfigTimeoutActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:101:9-105:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:105:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:104:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:103:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:102:13-58
+activity#com.jd.smartcloudmobilesdk.demo.gateway.ConfigHelpActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:106:9-110:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:110:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:109:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:108:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:107:13-55
+activity#com.jd.smartcloudmobilesdk.demo.gateway.RepeatBindActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:111:9-115:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:115:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:114:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:113:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:112:13-55
+activity#com.jd.smartcloudmobilesdk.demo.control.HtmlDetailActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:116:9-120:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:120:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:119:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:118:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:117:13-55
+activity#com.jd.smartcloudmobilesdk.demo.control.ModelDetailHtml5Activity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:121:9-125:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:125:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:124:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:123:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:122:13-61
+activity#com.jd.smartcloudmobilesdk.demo.control.SettingActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:127:9-131:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:131:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:130:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:129:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:128:13-52
+activity#com.jd.smartcloudmobilesdk.demo.control.EditNameActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:132:9-136:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:136:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:135:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:134:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:133:13-53
+activity#com.jd.smartcloudmobilesdk.demo.control.JsNativeActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:137:9-141:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:141:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:140:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:139:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:138:13-53
+activity#com.jd.smartcloudmobilesdk.demo.control.DeviceListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:142:9-146:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:146:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:145:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:144:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:143:13-55
+activity#com.jd.smartcloudmobilesdk.demo.scene.SceneListUI
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:147:9-151:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:151:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:150:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:149:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:148:13-46
+activity#com.jd.smartcloudmobilesdk.demo.scene.CreateSceneUI
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:152:9-156:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:156:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:155:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:154:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:153:13-48
+activity#com.jd.smartcloudmobilesdk.demo.scene.SceneAddTaskUI
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:157:9-161:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:161:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:160:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:159:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:158:13-49
+activity#com.jd.smartcloudmobilesdk.demo.scene.SceneDetailUI
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:162:9-166:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:166:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:165:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:164:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:163:13-48
+activity#com.jd.smartcloudmobilesdk.demo.scene.SceneRecordUI
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:167:9-171:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:171:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:170:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:169:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:168:13-48
+activity#com.jd.smartcloudmobilesdk.demo.scene.SceneRecordDetailUI
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:172:9-176:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:176:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:175:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:174:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:173:13-54
+activity#com.jd.smartcloudmobilesdk.demo.ifttt.SceneListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:177:9-181:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:181:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:180:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:179:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:178:13-52
+activity#com.jd.smartcloudmobilesdk.demo.ifttt.SceneLogsActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:182:9-186:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:186:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:185:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:184:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:183:13-52
+activity#com.jd.smartcloudmobilesdk.demo.ifttt.SceneLogDetailActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:187:9-191:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:191:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:190:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:189:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:188:13-57
+activity#com.jd.smartcloudmobilesdk.demo.ifttt.CreateSceneActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:192:9-196:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:196:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:195:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:194:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:193:13-54
+activity#com.jd.smartcloudmobilesdk.demo.ifttt.SceneEventsListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:197:9-201:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:201:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:200:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:199:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:198:13-58
+activity#com.jd.smartcloudmobilesdk.demo.ifttt.SceneActionsListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:202:9-206:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:206:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:205:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:204:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:203:13-59
+activity#com.jd.smartcloudmobilesdk.demo.openapi.OpenApiActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:207:9-211:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:211:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:210:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:209:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:208:13-52
+activity#com.jd.smartcloudmobilesdk.demo.business.card.CardListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:213:9-217:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:217:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:216:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:215:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:214:13-59
+activity#com.jd.smartcloudmobilesdk.demo.business.category.CategoryActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:218:9-222:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:222:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:221:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:220:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:219:13-63
+activity#com.jd.smartcloudmobilesdk.demo.business.category.ProductBrandActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:223:9-227:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:227:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:226:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:225:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:224:13-67
+activity#com.jd.smartcloudmobilesdk.demo.business.category.ProductListActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:228:9-232:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:232:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:231:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:230:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:229:13-66
+activity#com.jd.smartcloudmobilesdk.authorize.AuthorizeActivity
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:235:9-239:52
+	android:screenOrientation
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:239:13-49
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:238:13-37
+	android:configChanges
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:237:13-70
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:236:13-82
+service#com.jd.smartcloudmobilesdk.confignet.ble.core.BleService
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:241:9-243:38
+	android:enabled
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:243:13-35
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:242:13-84
+service#com.jd.smartcloudmobilesdk.devicecontrol.DeviceService
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:245:9-90
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:245:18-87
+receiver#com.jd.smartcloudmobilesdk.demo.control.WifiReceiver
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:247:9-255:20
+	android:exported
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:249:13-37
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:248:13-49
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:android.net.wifi.STATE_CHANGE+action:name:android.net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:250:13-254:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:251:17-79
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:251:25-76
+action#android.net.wifi.STATE_CHANGE
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:252:17-72
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:252:25-69
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:253:17-78
+	android:name
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml:253:25-75
+uses-sdk
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		ADDED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\workspace\studio\JDSmartSDK\SmartCloudMobileSDK\SmartCloudMobileSDKDemo\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7e3e347820a26a4bb98a982cb1fc6d3a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\9101bf06bdafb6dae4937e8279ac959c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\06052b55e97928cdaceb071b3a919e49\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\3111c9a0f13f6056ba2e9d5f9d0f4857\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fa220224891416733ad237804ce718f0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\23b27e826db6cc484207786cf2144ab2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\295d01b0124e32d693ed9b587cde07e3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\286140661b59419c56cf0cda47601919\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0a1793f408d00ba48e1448fbb33232be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\ecbea552c9d947cc021bd0f97dbd3d55\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\b94d05b6bb3dbcfc4e66bea69cab35fc\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5f24656ce6e6add6529eb5054108afa9\AndroidManifest.xml:26:13-58

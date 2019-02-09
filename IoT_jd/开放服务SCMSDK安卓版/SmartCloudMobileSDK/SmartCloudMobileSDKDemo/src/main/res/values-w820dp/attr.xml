@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="WaveView">
+		<attr name="above_wave_color" format="color"/>
+		<attr name="blow_wave_color" format="color"/>
+		<attr name="wprogress" format="integer"/>
+        <attr name="wave_length" format="enum">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr name="wave_height" format="enum">
+            <enum name="large" value="1"/>
+            <enum name="middle" value="2"/>
+            <enum name="little" value="3"/>
+        </attr>
+        <attr name="wave_hz" format="enum">
+            <enum name="fast" value="1"/>
+            <enum name="normal" value="2"/>
+            <enum name="slow" value="3"/>
+        </attr>
+        <attr name="have_solid" format="boolean"/>
+        <attr name="wave_alpha" format="integer"/>
+	</declare-styleable>
+
+	<declare-styleable name="Themes">
+		<attr name="waveViewStyle" format="reference"/>
+	</declare-styleable>
+	
+	
+	
+	<!-- dongdong -->
+	
+	 <attr name="spacing" format="reference|dimension" />
+	 
+  <declare-styleable name="CircleImageView">
+        <attr name="dongdong_border_width" format="dimension" />
+        <attr name="dongdong_border_color" format="color" />
+    </declare-styleable>
+  
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="FloatLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="android:orientation" />
+    </declare-styleable>
+    
+    <declare-styleable name="FloatLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+  
+
+    <declare-styleable name="HtmlTitleButton">
+		<attr name="child_paddingleft" format="dimension"/>
+		<attr name="child_paddingright" format="dimension"/>
+		<attr name="child_paddingtop" format="dimension"/>
+		<attr name="child_paddingbottom" format="dimension"/>
+    </declare-styleable>
+    
+</resources>

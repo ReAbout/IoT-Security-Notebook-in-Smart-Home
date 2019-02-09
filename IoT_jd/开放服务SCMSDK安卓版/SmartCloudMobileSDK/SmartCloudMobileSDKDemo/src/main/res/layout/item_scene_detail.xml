@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ViewStub
+        android:id="@+id/vs_detail_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/scene_detail_device" />
+
+    <ViewStub
+        android:id="@+id/vs_detail_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/scene_detail_time" />
+
+</LinearLayout>

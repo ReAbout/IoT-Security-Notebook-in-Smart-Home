@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.jd.smartcloudmobilesdk.demo.ifttt.PinnedHeaderListView
+        android:id="@+id/dc_opts_plist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dc_opts_sure"
+        android:background="@color/white"
+        android:cacheColorHint="#00000000"
+        android:divider="#d8dadd"
+        android:dividerHeight="0.56dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:listSelector="@color/transparent"
+        android:paddingLeft="22.5dp"
+        android:scrollbars="none" />
+
+    <Button
+        android:id="@+id/dc_opts_sure"
+        android:layout_width="match_parent"
+        android:layout_height="67.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="#e43a3d"
+        android:text="确定"
+        android:textColor="#ffffff"
+        android:textSize="16.875sp"
+        android:typeface="sans" />
+
+</RelativeLayout>

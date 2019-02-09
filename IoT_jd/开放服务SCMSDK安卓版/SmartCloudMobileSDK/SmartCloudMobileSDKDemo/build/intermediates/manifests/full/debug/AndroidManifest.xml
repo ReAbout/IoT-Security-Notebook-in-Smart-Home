@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jd.smartcloudmobilesdk.ui"
+    android:versionCode="6"
+    android:versionName="1.3.2" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.jd.smartcloudmobilesdk.demo.JDApplication"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity android:name="com.jd.smartcloudmobilesdk.demo.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.authorize.AuthorizeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.authorize.AuthorizeFragmentActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.config.ConfigNetActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.config.ScanConfigActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.config.OneStepCloudActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.config.OneStepNativeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.config.SoftApActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.config.BleWiFiActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.GatewayListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.QRCodeConfigActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.ProductManualActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.PhysicalConfigActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.ConfigTimeoutActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.ConfigHelpActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.gateway.RepeatBindActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.control.HtmlDetailActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.control.ModelDetailHtml5Activity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.control.SettingActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.control.EditNameActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.control.JsNativeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.control.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.scene.SceneListUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.scene.CreateSceneUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.scene.SceneAddTaskUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.scene.SceneDetailUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.scene.SceneRecordUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.scene.SceneRecordDetailUI"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.ifttt.SceneListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.ifttt.SceneLogsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.ifttt.SceneLogDetailActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.ifttt.CreateSceneActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.ifttt.SceneEventsListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.ifttt.SceneActionsListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.openapi.OpenApiActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.business.card.CardListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.business.category.CategoryActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.business.category.ProductBrandActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.demo.business.category.ProductListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- SDK中的授权登录页面，需要开发者注册 -->
+        <activity
+            android:name="com.jd.smartcloudmobilesdk.authorize.AuthorizeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.jd.smartcloudmobilesdk.confignet.ble.core.BleService"
+            android:enabled="true" />
+        <service android:name="com.jd.smartcloudmobilesdk.devicecontrol.DeviceService" />
+
+        <receiver
+            android:name="com.jd.smartcloudmobilesdk.demo.control.WifiReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.STATE_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

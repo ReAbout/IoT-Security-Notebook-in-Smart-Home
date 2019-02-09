@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/main_title" />
+
+    <EditText
+        android:id="@+id/et_qr_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:hint="请输入产品二维码信息"
+        android:imeOptions="actionDone"
+        android:textColor="#2f3239"
+        android:textColorHint="#bdc8d5"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_start"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center"
+        android:text="start"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HtmlTitleButton">
+        <attr name="child_paddingleft" format="dimension"/>
+        <attr name="child_paddingright" format="dimension"/>
+        <attr name="child_paddingtop" format="dimension"/>
+        <attr name="child_paddingbottom" format="dimension"/>
+    </declare-styleable>
+
+</resources>

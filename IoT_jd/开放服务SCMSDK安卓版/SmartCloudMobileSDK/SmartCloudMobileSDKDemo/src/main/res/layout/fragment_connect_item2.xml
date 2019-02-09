@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fc_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="61.875dp">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="#bdc8d5"
+        android:textSize="16.875dp" />
+
+    <TextView
+        android:id="@+id/choose_options"
+        android:layout_width="wrap_content"
+        android:layout_height="22.5dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10.0dp"
+        android:layout_toLeftOf="@+id/item_choose"
+        android:textColor="#bdc8d5"
+        android:textSize="16.875dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/item_choose"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="36.0dp" />
+
+</RelativeLayout>
