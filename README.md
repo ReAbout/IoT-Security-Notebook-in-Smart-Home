@@ -17,6 +17,12 @@
 2018 27th USENIX Security Symposium
 - [SoK: Security Evaluation of Home-Based IoT Deployments](https://github.com/ReAbout/IoT-Home/blob/master/SoK%20Security%20Evaluation%20of%20Home-Based%20IoT.md)    
 2019 综述从4个方面（设备、平台、App、通信）分析smart home 漏洞，并调查现有产品的漏洞情况。
+- [Passwords in the Air: Harvesting Wi-Fi Credentials from SmartCfg Provisioning](https://github.com/ReAbout/IoT-Home/blob/master/Passwords%20in%20the%20Air.md)    
+2018 WiSec ’18
+- [Smart Solution, Poor Protection:An Empirical Study of Security and Privacy Issues in Developing and Deploying Smart Home Devices](https://github.com/ReAbout/IoT-Home/blob/master/Smart%20Solution%2C%20Poor%20Protection.md)    
+2017 IoT S&P'17
+- [Phantom Device Attack: Uncovering the Security Implications of the Interactions among Devices, IoT Cloud, and Mobile Apps](https://github.com/ReAbout/IoT-Home/blob/master/Phantom%20Device%20Attack.md)    
+
 
 ## 参考
 #### [知道创宇IoT专栏](https://paper.seebug.org/category/IoT/)   
