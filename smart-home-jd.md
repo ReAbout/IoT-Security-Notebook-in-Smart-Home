@@ -4,11 +4,12 @@
 Index：https://smartdev.jd.com
 Download： https://smartdev.jd.com/docCenterDownload/list/2
 APP：小京鱼
-### 0x02 平台简介
+### 0x02 Platform
+### 平台简介
 IoT 开放平台是京东在IoT时代全力打造的开放平台，其目标是帮助各大品牌厂家打造更好的产品。IoT平台主要服务于生活场景的智能设备，如智能家居设备，智能家电设备，智能车载，可穿戴设备等。截至目前，IoT平台接入了上百家品牌厂家的上千款产品，已经销售的产品数量达到了千万数量级。
 接入IoT平台的设备可以获取平台的物联网能力，和其他智能设备互联互通，并且可以被叮咚音箱及接入小京鱼平台的其他主控设备控制。
-![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/jd_iot_1.png?token=AI5pPZyWiEgLpwqFa61Ooj6o7xMi-y8Yks5cTvB8wA%3D%3D)
-### 0x03 分类
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/jd_iot_1.png?token=AI5pPRxVFcs39aZzjiPSNfK60oUGB6fPks5caBG7wA%3D%3D)
+#### 分类
 基于JoyLink2.0协议的SDK适用于的设备，按照在网络中的角色可以分为以下三种：
 - 普通设备：即一般的可连网设备，这样的设备可以通过基站、路由器直接连入因特网，本身具有IP地址。
 - 网关设备：这类设备不仅自身有IP地址，可以连入因特网；同时代理如ZigBee、BlueTooth、433等不具有独立IP地址的设备接入网络。
@@ -18,7 +19,7 @@ IoT 开放平台是京东在IoT时代全力打造的开放平台，其目标是�
 - 蓝牙设备：一些可穿戴设备如蓝牙耳机、手环，通信主要走蓝牙协议，并非网络协议，为此我们提供了蓝牙设备SDK。
 - 手机APP：与用户产生交互的控制端，指令的发起方，同时也是信息的查询窗口。
 - 云平台：提供后台服务、提供广域网连接的具有公网IP的服务器端。
-### 0x04 Sniffing method
+### 0x03 Sniffing method
 #### Wifi
 http://router.asus.com
 192.168.50.1
@@ -27,7 +28,7 @@ tcpdump静态编译版本，适用于merlin等arm固件
 tcpdump -i br0 -s 0 -w test.pcap
 #### Bluetooth
 怎么构造包？
-### 0x05 Traffic Analysis
+### 0x04 Traffic Analysis
 JoyLink通信协议、JoyLink-Bluetooth协议、设备入网（softap、一键配置）、云端API、Joylink2.0 指令转换及lua 脚本
 分析方法：通过文档、SDK+抓包
 #### (1)指令转换及lua 脚本
@@ -50,12 +51,16 @@ JoyLink Profile
 组播和广播两种方式。
 #### (6)云端API
 #### Tips
-1. 局域网中控制
-2. 认证
-3. 投屏
+局域网中控制
+认证
+setup:app通过BLE组播发送，云端身份绑定、认证，设备初始化
+投屏
 ## Reference
 - https://github.com/espressif/esp-joylink
 - https://www.defcon.org/html/defcon-china/dc-cn-speakers.html
-- ACM Conference on Security & Privacy,[Passwords in the Air: Harvesting Wi-Fi Credentials from SmartCfg Provisioning](https://loccs.sjtu.edu.cn/~romangol/publications/wisec18.pdf)
 - [飘散在空中的Wi-Fi密码：SmartCfg无线配网方案的安全分析](https://zhuanlan.zhihu.com/p/35664962)
-- IoT S&P,[Smart Solution, Poor Protection: An Empirical Study of Security and Privacy Issues in Developing and Deploying Smart Home Devices](https://loccs.sjtu.edu.cn/~romangol/publications/iotsp17.pdf)
+- ACM Conference on Security & Privacy,[Passwords in the Air: Harvesting Wi-Fi Credentials from SmartCfg Provisioning](https://loccs.sjtu.edu.cn/~romangol/publications/wisec18.pdf) 对于一键配置WIFI功能的安全监测
+- IoT S&P,[Smart Solution, Poor Protection: An Empirical Study of Security and Privacy Issues in Developing and Deploying Smart Home Devices](https://loccs.sjtu.edu.cn/~romangol/publications/iotsp17.pdf) 对JoyLink协议分析，并发现隐私和安全问题
+- arxiv,[Phantom Device Attack: Uncovering the Security Implications of the Interactions among Devices, IoT Cloud, and Mobile Apps](https://arxiv.org/abs/1811.03241)
+
+https://www.rsaconference.com/writable/presentations/file_upload/cmi1-r08_managing_security_in_internet_of_things_using_api_management_platforms_final2.pdf
