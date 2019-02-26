@@ -51,12 +51,13 @@ Control
 ##### 包类型：
 |Packet Type|Function|Key Parameters|
 |------|-------|------|
-|PT_SCAN|Device discovery|ECDH pubkey,MAC address|
-|PT_AUTH|Establishing remote communication|accesskey,sessionkey|
+|PT_SCAN|Device discovery|ECDH pubkey,MAC address|   
+|PT_AUTH|Establishing remote communication|accesskey,sessionkey|   
 |PT_HEARTBEAT|Maintain conncetion with cloud|firmware version|
 |PT_SCRIPTCONTROL|Device local control|-|
-|PT_SERVERCONTROL|Device remote control|feedid|
+|PT_SERVERCONTROL|Device remote control|feedid|   
 |PT_WRITEACCESSKEY|Device initialization|feedid,localkey,accesskey|
+
 Vuln[Reference.5]：秘钥管理脆弱性，秘钥依赖关系sessionkey→accesskey→localkey→tmpkey.左边的密钥交付给对方时，其安全性取决于右边的密钥。可进行中间人攻击，并可以通过秘钥构造包进行重放控制设备。   
 &emsp;&emsp;流量解密获取敏感信息  
 &emsp;&emsp;局域网内设备劫持   
@@ -91,7 +92,7 @@ Vuln[Reference.4]：设备入网WIFI用户密码，敏感信息泄露。
 setup:app通过BLE组播发送，云端身份绑定、认证，设备初始化    
 投屏（隐蔽安装App）
 网关、蓝牙网关   
-场景交互      
+场景交互（存云端交互）      
 ## Reference
 - [1]https://github.com/espressif/esp-joylink
 - [2]https://www.defcon.org/html/defcon-china/dc-cn-speakers.html
