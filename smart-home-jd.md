@@ -63,20 +63,20 @@ Vuln[Reference.5]：秘钥管理脆弱性，秘钥依赖关系sessionkey→acces
 &emsp;&emsp;局域网内设备劫持   
 &emsp;&emsp;伪造服务器进行劫持   
 &emsp;&emsp;设备模拟添加到受害者账号中   
-Vuln[Reference.5]：下载、更新篡改固件数据。
-Vuln[Reference.6]：利用setup逻辑漏洞，攻击场景
-&emsp;&emsp;可以远程接管设备
-&emsp;&emsp;远程用控制下的不存在的幻影设备替换真实设备
-&emsp;&emsp;可以利用phantom设备自动向云端发送更新请求，大规模窃取各种专有固件。
-&emsp;&emsp;对手可以利用虚拟设备误导云，并在出售前占有真实设备的身份
+Vuln[Reference.5]：下载、更新篡改固件数据。   
+Vuln[Reference.6]：利用setup逻辑漏洞，攻击场景   
+&emsp;&emsp;可以远程接管设备   
+&emsp;&emsp;远程用控制下的不存在的幻影设备替换真实设备    
+&emsp;&emsp;可以利用phantom设备自动向云端发送更新请求，大规模窃取各种专有固件。   
+&emsp;&emsp;对手可以利用虚拟设备误导云，并在出售前占有真实设备的身份   
 #### (3)JoyLink-Bluetooth
 > [APP]<—BLE—>[Device] 
 
 JoyLink Profile   
 协议层：一帧大小20B   
 应用层：     
-&emsp;&emsp;通信层面：通信层面是为SDK服务   
-&emsp;&emsp;业务层面：业务层面是为App服务。   
+&emsp;&emsp;通信层面：通信层面是为SDK服务      
+&emsp;&emsp;业务层面：业务层面是为App服务。      
 功能：设备发现、配置上网、设备->控制端通信、控制端->设备通信   
 通信安全级别   
 #### (4)设备入网 softap
