@@ -5,7 +5,16 @@
 
 通过分析JoyLink    
 秘钥key依赖关系：   
-sessionkey→accesskey→localkey→tmpkey.   
+sessionkey→accesskey→localkey→tmpkey.  
+#### JoyLink包类型：
+|Packet Type|Function|Key Parameters|
+|------|-------|------|
+|PT_SCAN|Device discovery|ECDH pubkey,MAC address|   
+|PT_AUTH|Establishing remote communication|accesskey,sessionkey|   
+|PT_HEARTBEAT|Maintain conncetion with cloud|firmware version|
+|PT_SCRIPTCONTROL|Device local control|-|
+|PT_SERVERCONTROL|Device remote control|feedid|   
+|PT_WRITEACCESSKEY|Device initialization|feedid,localkey,accesskey|
 ### Vulnerability
 Vuln1：秘钥管理脆弱性，秘钥依赖关系sessionkey→accesskey→localkey→tmpkey.左边的密钥交付给对方时，其安全性取决于右边的密钥。可进行中间人攻击，并可以通过秘钥构造包进行重放控制设备。   
 &emsp;&emsp;流量解密获取敏感信息   
