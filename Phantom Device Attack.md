@@ -10,9 +10,29 @@ II. INTERACTIONS AMONG DEVICES, IOT CLOUD AND MOBILE APPS
 &emsp;&emsp;D. Scope of Empirical Vulnerability Analysis   
 III. PHANTOM DEVICE ATTACK: AN OVERVIEW   
 &emsp;&emsp;A. Threat Model   
-&emsp;&emsp;B. Analysis Methodology   
-&emsp;&emsp;C. Identified Design Flaws   
-IV. CASE STUDY: REMOTE DEVICE HIJACKING   
+&emsp;&emsp;B. Analysis Methodology      
+&emsp;&emsp;C. Identified Design Flaws    
+IV. CASE STUDY: REMOTE DEVICE HIJACKING     
+&emsp;&emsp;A. Ali Solution Specifics   
+&emsp;&emsp;B. Prerequisites and Feasibility Analysis   
+&emsp;&emsp;C. Attack Details   
+&emsp;&emsp;D. Attack Impact   
+&emsp;&emsp;E. Stealthiness Analysis   
+V. CASE STUDY: REMOTE DEVICE SUBSTITUTION   
+&emsp;&emsp;A. KASA Solution Specifics   
+&emsp;&emsp;B. Prerequisites and Feasibility Analysis   
+&emsp;&emsp;C. Attack Details   
+&emsp;&emsp;D. Attack Impact   
+&emsp;&emsp;E. Stealthiness Analysis   
+VI. OTHER THREATS   
+&emsp;&emsp;A. Firmware Theft   
+&emsp;&emsp;B. Illegal Device Occupation   
+&emsp;&emsp;C. Local Device Hijacking   
+VII. DISCUSSION   
+&emsp;&emsp;A. Impacts     
+&emsp;&emsp;B. Mitigation   
+VIII. RELATED WORK   
+IX. CONCLUSIONS    
 
 ####Interaction Model：   
 Setup   
