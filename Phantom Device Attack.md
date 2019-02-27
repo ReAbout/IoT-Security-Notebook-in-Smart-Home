@@ -34,7 +34,7 @@ VII. DISCUSSION
 VIII. RELATED WORK   
 IX. CONCLUSIONS    
 
-#### Interaction Model：   
+#### 交互模型：   
 Setup   
 - Device Discovery   
 - WiFi Provisioning   
@@ -49,7 +49,7 @@ Control
 - Data Uploading   
 
 #### 利用setup逻辑漏洞，攻击场景   
-&emsp;&emsp;可以远程接管设备   
-&emsp;&emsp;远程用控制下的不存在的幻影设备替换真实设备    
+&emsp;&emsp;可以远程接管设备。   
+&emsp;&emsp;远程用控制下的不存在的幻影设备替换真实设备。    
 &emsp;&emsp;可以利用phantom设备自动向云端发送更新请求，大规模窃取各种专有固件。   
-&emsp;&emsp;对手可以利用虚拟设备误导云，并在出售前占有真实设备的身份   
+&emsp;&emsp;对手可以利用虚拟设备误导云，并在出售前占有真实设备的身份。   
