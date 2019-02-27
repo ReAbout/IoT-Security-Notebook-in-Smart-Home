@@ -87,12 +87,12 @@ Vuln[Reference.4]：设备入网WIFI用户密码，敏感信息泄露。
 #### (5)云端API
 
 #### Tips
-局域网中控制   
-认证绑定、解绑    
+- 局域网中控制   
+- 认证绑定、解绑    
 setup:app通过BLE组播发送，云端身份绑定、认证，设备初始化    
-投屏（隐蔽安装App）
-网关、蓝牙网关   
-场景交互（存云端交互）      
+- 投屏（隐蔽安装App）
+- 网关、蓝牙网关   
+- 场景交互（存云端交互）      
 ## Reference
 - [1]https://github.com/espressif/esp-joylink
 - [2]https://www.defcon.org/html/defcon-china/dc-cn-speakers.html
