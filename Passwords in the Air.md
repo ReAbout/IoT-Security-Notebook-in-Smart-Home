@@ -19,7 +19,7 @@
 分析了市面上八家主流无线芯片厂商所提供的SDK   
 对市面上821款流行的智能家居应用，发现其中有64款应用使用SmartCfg技术，而在其中，42款应用存在上述分析中的安全隐患，
 ### 安全方案
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/iot_air_1.jpg?token=AI5pPVuz6Xij6HEYQ6VLWGLgRxQ8GEXwks5cf44ZwA%3D%3D)
 
-
-
+中文参考
 https://zhuanlan.zhihu.com/p/35664962
