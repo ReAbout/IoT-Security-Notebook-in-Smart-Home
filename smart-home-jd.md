@@ -36,18 +36,18 @@ JoyLink通信协议、JoyLink-Bluetooth协议、设备入网（softap、一键�
 京东标准指令：在京东Joylink 协议里所有的事物（包括设备device, 设备快照snapshot, 操作属性stream_id, 操作指令cmd 等）均使用json语言描述。   
 实现指令转化是靠Lua脚本实现的。   
 #### (2)JoyLink通信协议   
-##### 通信交互模型[Reference.5]：
-Setup
-&emsp;&emsp;Device Discovery(通常明文，可用于局域网内探测IoT设备）
-&emsp;&emsp;WiFi Provisioning(入网配置)
-&emsp;&emsp;Device Registration 
-&emsp;&emsp;Device Binding
-&emsp;&emsp;Device Login
-Control
-&emsp;&emsp;Remote Control
-&emsp;&emsp;Local Control
-&emsp;&emsp;Smart Control
-&emsp;&emsp;Data Uploading
+##### 通信交互模型[Reference.5]：   
+Setup   
+&emsp;&emsp;Device Discovery(通常明文，可用于局域网内探测IoT设备）   
+&emsp;&emsp;WiFi Provisioning(入网配置)   
+&emsp;&emsp;Device Registration    
+&emsp;&emsp;Device Binding   
+&emsp;&emsp;Device Login   
+Control   
+&emsp;&emsp;Remote Control   
+&emsp;&emsp;Local Control   
+&emsp;&emsp;Smart Control   
+&emsp;&emsp;Data Uploading   
 ##### 包类型：
 |Packet Type|Function|Key Parameters|
 |------|-------|------|
