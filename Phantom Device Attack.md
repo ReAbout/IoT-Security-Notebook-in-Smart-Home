@@ -34,7 +34,7 @@ VII. DISCUSSION
 VIII. RELATED WORK   
 IX. CONCLUSIONS    
 
-####Interaction Model：   
+#### Interaction Model：   
 Setup   
 - Device Discovery   
 - WiFi Provisioning   
