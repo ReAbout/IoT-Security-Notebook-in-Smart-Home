@@ -7,8 +7,9 @@
 &emsp;&emsp;效果：通过自谷歌Play Store的10,000个流行的免费应用程序上评估了系统。检测到超过4000个应用程序中使用的api存在逻辑问题，其中包括1743个使用未加密HTTP通信的应用程序。我们进一步测试了1000个应用程序，以验证web API劫持漏洞，这些漏洞可能会导致用户隐私和安全方面的潜在危害，并发现文中测试的示例应用程序集可能会影响数百万用户。   
 ## [论文要点]
 ### 漏洞问题
-- 使用HTTP
+- 使用HTTP不安全
 - 不一致性：data validation logic in a mobile app & data validation logic implemented at a remote web API server
+eg.敏感数据客户端限制了，但是服务端未限制可以访问 
 - web api甚至可能跳过输入验证，把这项工作交给应用程序->重放攻击
 - Web API hijacking：授予攻击者未经授权的访问权
 ### 约束模型
