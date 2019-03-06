@@ -1,4 +1,4 @@
-# IoT for Home Security
+# IoT（Smart Home） Security
 
 ## 项目研究
 - [小米IoT通信安全研究](https://github.com/ReAbout/IoT-Home/blob/master/communication-mi.md)
