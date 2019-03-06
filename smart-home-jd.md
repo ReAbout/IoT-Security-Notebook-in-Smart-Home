@@ -92,7 +92,7 @@ Vuln[Reference.4]：设备入网WIFI用户密码，敏感信息泄露。
 setup:app通过BLE组播发送，云端身份绑定、认证，设备初始化    
 - 投屏（隐蔽安装App）
 - 网关、蓝牙网关   
-- 场景交互（存云端交互）      
+- 场景交互-IFTTT（Decentralized Action Integrity for Trigger-Action IoT Platforms）      
 - IoT BLE Fuzz 从APP端接入进行Fuzz测试
 ## Reference
 - [1]https://github.com/espressif/esp-joylink
