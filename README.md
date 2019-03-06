@@ -22,7 +22,9 @@
 - [Smart Solution, Poor Protection:An Empirical Study of Security and Privacy Issues in Developing and Deploying Smart Home Devices](https://github.com/ReAbout/IoT-Home/blob/master/Smart%20Solution%2C%20Poor%20Protection.md)    
 2017 IoT S&P'17
 - [Phantom Device Attack: Uncovering the Security Implications of the Interactions among Devices, IoT Cloud, and Mobile Apps](https://github.com/ReAbout/IoT-Home/blob/master/Phantom%20Device%20Attack.md)    
-
+对Smart Home场景下IoT设备通信安全研究。
+- [Mobile Application Web API Reconnaissance:Web-to-Mobile Inconsistencies & Vulnerabilities](https://github.com/ReAbout/IoT-Home/blob/master/Mobile%20Application%20Web%20API%20Reconnaissance.md)    
+2018 S&P  发现app与web api不一致性，研究一个工具用于测试不一致性。
 
 ## 参考
 #### [知道创宇IoT专栏](https://paper.seebug.org/category/IoT/)   
