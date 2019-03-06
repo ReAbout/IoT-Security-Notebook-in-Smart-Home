@@ -21,13 +21,13 @@ Ca(S) = false => Cs(S) = false 在客户端拒绝的服务端也应该拒绝
 2. 不一致评价->找客户端测试失败，服务端测试未失败的HTTP
 - 基于Flowdroid（找HTTP代码路径和约束）拓展。
 Flowdroid: Precise context,flow, field, object-sensitive and lifecycle-aware taint analysis for android apps     
-![]()
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/android_api_1.PNG?token=AI5pPUIu4fwgg2urvl5gTWGXs1bugSTzks5ciLfMwA%3D%3D)
 - __程序切片__:缩小搜索范围    
 找java.net.HttpURLConnection, org.apache。http、android.net.http android。volley、javax.net.ssl和java.net.URL等追踪
 - __修改污染规则__:反向的污染传播规则
 - __路径约束__:Flowdroid
 - __UI分析__:XML关联到程序片段中的事件侦听器,找到UI加约束
-![]()
+![](https://raw.githubusercontent.com/ReAbout/IoT-Home/master/images/android_api_2.PNG?token=AI5pPSE3TT8njcUgLizyHMCk20beS_jrks5ciLfpwA%3D%3D)
 - __常量__：Amazon AWS sdk的应用程序通常为每个请求发送API身份验证密钥。这个键通常硬编码在源代码中。
 ### 启发式
 实质是加入简单的指纹识别然后进行些漏洞测试。   
