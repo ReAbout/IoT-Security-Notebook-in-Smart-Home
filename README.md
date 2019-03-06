@@ -19,10 +19,11 @@
 2019 综述从4个方面（设备、平台、App、通信）分析smart home 漏洞，并调查现有产品的漏洞情况。
 - [Passwords in the Air: Harvesting Wi-Fi Credentials from SmartCfg Provisioning](https://github.com/ReAbout/IoT-Home/blob/master/Passwords%20in%20the%20Air.md)    
 2018 WiSec ’18
-- [Smart Solution, Poor Protection:An Empirical Study of Security and Privacy Issues in Developing and Deploying Smart Home Devices](https://github.com/ReAbout/IoT-Home/blob/master/Smart%20Solution%2C%20Poor%20Protection.md)    
-未发布    
+- [Smart Solution, Poor Protection:An Empirical Study of Security and Privacy Issues in Developing and Deploying Smart Home Devices](https://github.com/ReAbout/IoT-Home/blob/master/Smart%20Solution%2C%20Poor%20Protection.md)       
 2017 IoT S&P'17
-- [Phantom Device Attack: Uncovering the Security Implications of the Interactions among Devices, IoT Cloud, and Mobile Apps](https://github.com/ReAbout/IoT-Home/blob/master/Phantom%20Device%20Attack.md)    
+针对京东JoyLink分析，安全分析    
+- [Phantom Device Attack: Uncovering the Security Implications of the Interactions among Devices, IoT Cloud, and Mobile Apps](https://github.com/ReAbout/IoT-Home/blob/master/Phantom%20Device%20Attack.md)   
+未发布   
 对Smart Home场景下IoT设备通信安全研究。
 - [Mobile Application Web API Reconnaissance:Web-to-Mobile Inconsistencies & Vulnerabilities](https://github.com/ReAbout/IoT-Home/blob/master/Mobile%20Application%20Web%20API%20Reconnaissance.md)    
 2018 S&P  
