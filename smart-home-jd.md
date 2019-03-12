@@ -69,6 +69,8 @@ Vuln[Reference.6]：利用setup逻辑漏洞，攻击场景
 &emsp;&emsp;远程用控制下的不存在的幻影设备替换真实设备    
 &emsp;&emsp;可以利用phantom设备自动向云端发送更新请求，大规模窃取各种专有固件。   
 &emsp;&emsp;对手可以利用虚拟设备误导云，并在出售前占有真实设备的身份   
+
+配置网络需要定位服务？   
 #### (3)JoyLink-Bluetooth
 > [APP]<—BLE—>[Device] 
 
@@ -85,7 +87,17 @@ JoyLink Profile
 Vuln[Reference.4]：设备入网WIFI用户密码，敏感信息泄露。
 
 #### (5)云端API
-
+ App-> TCP shooter.m.jd.com
+ APP-> https://api.m.jd.com.gslb.qianxun.com/    
+ APP-> https://devsmart.jd.com.gslb.qianxun.com/   
+ APP-> https://saturn.jd.com.gslb.qianxun.com/   
+ APP-> TCP jpushthird.m.jd.com.gslb.qianxun.com:2009     
+ ```
+ {"APPID":1038,"CLIENTID":"yx550898_m""DEVTOKEN":"41d9933aec5e4aad8ffdccc4eec215a6"}     
+ {"STATUS":0,"APPID":1038,"DEVTOKEN":"41d9933aec5e4aad8ffdccc4eec215a6","CLIENTID":"yx550898_m"}    
+ ```
+APP-> SCCP smart-applive.jd.com.gslb.qianxun.com:2000     
+Device->TCP live.smart.jd.com.gslb.qianxun.com:2002
 #### Tips
 - 局域网中控制   
 - 认证绑定、解绑    
