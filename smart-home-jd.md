@@ -1,9 +1,9 @@
 # JD Smart Home Security
 ## 0x01 Introduction
-“Alpha”、“京东微联”品牌统一升级为“小京鱼”
-Index：https://smartdev.jd.com
-Download： https://smartdev.jd.com/docCenterDownload/list/2
-APP：小京鱼
+- “Alpha”、“京东微联”品牌统一升级为“小京鱼”
+- Index：https://smartdev.jd.com
+- Download： https://smartdev.jd.com/docCenterDownload/list/2
+- APP：小京鱼
 ### 0x02 Platform
 ### 平台简介
 IoT开放平台是京东在IoT时代全力打造的开放平台，其目标是帮助各大品牌厂家打造更好的产品。IoT平台主要服务于生活场景的智能设备，如智能家居设备，智能家电设备，智能车载，可穿戴设备等。截至目前，IoT平台接入了上百家品牌厂家的上千款产品，已经销售的产品数量达到了千万数量级。   
