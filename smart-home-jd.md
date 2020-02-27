@@ -93,8 +93,8 @@ Vuln[Reference.4]：设备入网WIFI用户密码，敏感信息泄露。
  APP-> https://saturn.jd.com.gslb.qianxun.com/   
  APP-> TCP jpushthird.m.jd.com.gslb.qianxun.com:2009     
  ```
- {"APPID":1038,"CLIENTID":"yx550898_m""DEVTOKEN":"41d9933aec5e4aad8ffdccc4eec215a6"}     
- {"STATUS":0,"APPID":1038,"DEVTOKEN":"41d9933aec5e4aad8ffdccc4eec215a6","CLIENTID":"yx550898_m"}    
+ {"APPID":1038,"CLIENTID":"y***_m""DEVTOKEN":"41d9933aec****ad8ffdccc4eec215a6"}     
+ {"STATUS":0,"APPID":1038,"DEVTOKEN":"41d9933aec****ad8ffdccc4eec215a6","CLIENTID":"y***_m"}    
  ```
 APP-> SCCP smart-applive.jd.com.gslb.qianxun.com:2000     
 Device->TCP live.smart.jd.com.gslb.qianxun.com:2002
